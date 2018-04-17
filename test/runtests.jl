@@ -1,5 +1,5 @@
-using TemporaryArrays
-using Base.Test
+# This file is a part of TemporaryArrays.jl, licensed under the MIT License (MIT).
 
-# write your own tests here
-@test 1 == 2
+import Compat.Test
+Test.@testset "Package TemporaryArrays" begin
+end
