@@ -7,6 +7,10 @@ module TemporaryArrays
 using Compat
 using Compat: axes
 
-# package code goes here
+using UnsafeArrays
+
+include("util.jl")
+include("data_buffer.jl")
+include("temp_array_spec.jl")
 
 end # module
